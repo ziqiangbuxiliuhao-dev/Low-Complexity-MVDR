@@ -1564,11 +1564,11 @@ def main_quadrature_rule_ablation():
     out_dir = "./outputs_pub_quad_rules"
 
     N = 32
-    K = 128
+    K = 64
     theta_s = 0.0
-    theta_j = (-46.0, 32.0)
+    theta_j = (-42.0, 56.0)
     snr_db = 10.0
-    inr_db = 43.0
+    inr_db = 40.0
     main_half_width = 4.0
 
     M_each = 12
