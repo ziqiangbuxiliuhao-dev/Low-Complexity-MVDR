@@ -34,7 +34,7 @@ def main():
     M_each_shared = 12
     Q_each_shared = 17
 
-   In Table 5, the parameter  M denotes the total number of subintervals across both sidelobe regions (double-sided), i.e.,M=2* M_each_shared. This is why M=24 in Table 5.  
+   In Table 5, the parameter  M denotes the total number of subintervals across both sidelobe regions (double-sided), i.e., $M=2* M_each_shared$. This is why M=24 in Table 5.  
 
 
 def main_quadrature_rule_ablation():
