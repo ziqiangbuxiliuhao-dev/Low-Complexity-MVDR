@@ -11,9 +11,7 @@ The figures/results in the paper are reproduced under these settings.
 In particular, when `N=32`, please use the parameter configurations defined in:
 
 - `main()`
-- `main_quadrature_rule_ablation()`
-
-rather than other default or previously modified settings in the codebase.
+- `main_quadrature_rule_ablation()` （For fig8 and fig 9）
 
 ---
 
