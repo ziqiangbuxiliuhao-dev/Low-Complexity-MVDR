@@ -33,7 +33,7 @@ def main():
 
     M_each_shared = 12
     Q_each_shared = 17
-
+In Table 5, the parameter $  M  $ denotes the total number of subintervals across both sidelobe regions (double-sided), i.e., $  M = 2 \times M_{\rm each}  $. By contrast, $  M_{\rm each}  $ is the number of subintervals per sidelobe side (single-sided). This distinction ensures that the total quadrature budget $  B = 2 \times M_{\rm each} \times Q  $ remains identical across all compared rules while allowing direct control of the segmentation granularity on each side.
 
 
 def main_quadrature_rule_ablation():
