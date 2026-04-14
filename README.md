@@ -17,8 +17,6 @@ In particular, when `N=32`, please use the parameter configurations defined in:
 
 ## Default Parameters for Table 5 (`N=32`)
 
-### 1. Main experiment: `main()`
-
 Use the following configuration for the main comparison experiment:
 
 ```python
@@ -37,9 +35,7 @@ def main():
     Q_each_shared = 17
 
 
-## Default Parameters for Table 5 (`N=32`)
 
-### 1. Main experiment: `main()`
 def main_quadrature_rule_ablation():
     out_dir = "./outputs_pub_quad_rules"
 
