@@ -35,8 +35,11 @@ def main():
 
     M_each_shared = 12
     Q_each_shared = 17
-### 1. Main experiment: `main()`
 
+
+## Default Parameters for Table 5 (`N=32`)
+
+### 1. Main experiment: `main()`
 def main_quadrature_rule_ablation():
     out_dir = "./outputs_pub_quad_rules"
 
